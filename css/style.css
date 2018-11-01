@@ -1,0 +1,70 @@
+body {
+  margin-top: 105px; }
+
+.navbar {
+  box-shadow: 1px 1px 1px #FDB515;
+  opacity: 0.9;
+  background: #fff; }
+  .navbar .nav-item {
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-right: 1.4rem; }
+
+.page-footer {
+  background-color: #555555;
+    width: 100%;
+   display: block;
+}
+#showcase {
+  background: url(../img/hero.jpg);
+  height: 100%; 
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: 90%;
+background-position-x: right;
+
+}
+
+.cta {
+  font-size: 1.2rem;
+  font-weight: 300;
+  letter-spacing: 0.2px;
+  color: #888787;
+  padding-top: 1.3rem; }
+
+#about {
+  background-color: #EDF4FF;
+  padding: 0;
+  margin: 0;
+
+}
+
+
+
+#call {
+  background-color: #EDF4FF;
+}
+.info-header {
+  width: 50%;
+  margin: auto;
+   }
+.svg {
+  { width: 10%; height: auto; }
+}
+
+#authors img {
+  margin-top: -50px; }
+#authors .card:hover {
+  background: #FDB515;
+  color: #fff; }
+#authors .fab {
+  color: #fff; }
+
+@media (max-width: 768px) {
+  #showcase {
+    min-height: 500px; }
+    #showcase h1 {
+      font-size: 4rem; }
+
+  .mb-resp {
+    margin-bottom: 1rem; } }
